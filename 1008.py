@@ -1,0 +1,5 @@
+number = int(input())
+hrs = int(input())
+monphr = float(input())
+print("NUMBER = {}".format(number))
+print("SALARY = U$ {:.2f}".format(hrs * monphr))

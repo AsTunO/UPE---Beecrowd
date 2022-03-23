@@ -1,0 +1,12 @@
+import turtle
+t = turtle.Turtle()
+t.speed(0)
+t.hideturtle()
+t.penup()
+t.goto(-200, 100)
+t.pendown()
+t.color("red")
+t.begin_fill()
+t.circle(10)
+t.end_fill()
+turtle.Screen().exitonclick()
