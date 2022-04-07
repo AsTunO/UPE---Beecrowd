@@ -1,5 +1,4 @@
 x, y = map(int, input().split())
-
 if x == 1:
     print('Total: R$ {:.2f}'.format(4.00 * float(y)))
 if x == 2:
