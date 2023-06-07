@@ -4,3 +4,4 @@ for i in range (20):
 X = list(reversed(N))
 for i in range(20):
     print("N[{}] = {}".format(i, X[i]))
+    
